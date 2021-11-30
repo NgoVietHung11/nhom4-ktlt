@@ -1,0 +1,46 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+body{
+	font-family: Montserrat, sans-serif;
+	background: rgb(135,206,235);
+}
+.container{
+	margin: 100px auto;
+	background: #231e39;
+	color: #b3b8cd;
+	border-radius: 5px;
+	width: 500px;
+	text-align: center;
+	box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 10);
+}
+.cover-photo{
+	background: url(cover.jpg);
+	height: 180px;
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+.profile{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 100px 0 0 -240px;
+	border: 1px solid #1f1a32;
+	padding: 7px;
+	background: #292343;
+}
+.profile-name{
+	font-size: 26px;
+	font-weight: bold;
+	margin: 25px 0 0 200px;
+}
+.about{
+	margin: 25px 0 0 30px;
+	font-size: 19px;
+	text-align: left;
+	margin-top: 40px;
+	line-height: 35px;
+}
+.contact{
+	margin: 0 0 0 30px;
+	font-size: 19px;
+	text-align: left;
+}
